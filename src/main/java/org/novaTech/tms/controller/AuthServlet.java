@@ -1,14 +1,13 @@
-package org.example.tms.controller;
-import org.example.tms.dao.CategoryDAO;
-import org.example.tms.model.User;
+package org.novaTech.tms.controller;
+import org.novaTech.tms.model.User;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import org.example.tms.dao.UserDAO;
-import org.example.tms.util.CustomLogger;
+import org.novaTech.tms.dao.UserDAO;
+import org.novaTech.tms.util.CustomLogger;
 
 import java.io.IOException;
 import java.util.logging.Logger;

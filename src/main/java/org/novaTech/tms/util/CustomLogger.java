@@ -1,4 +1,4 @@
-package org.example.tms.util;
+package org.novaTech.tms.util;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Formatter;

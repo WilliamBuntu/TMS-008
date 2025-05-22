@@ -1,8 +1,8 @@
-package org.example.tms.dao;
+package org.novaTech.tms.dao;
 
-import org.example.tms.model.Category;
-import org.example.tms.util.CustomLogger;
-import org.example.tms.util.DatabaseUtil;
+import org.novaTech.tms.model.Category;
+import org.novaTech.tms.util.CustomLogger;
+import org.novaTech.tms.util.DatabaseUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

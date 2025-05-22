@@ -1,10 +1,9 @@
-package org.example.tms.util;
+package org.novaTech.tms.util;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.time.LocalDate;
-import java.util.Locale;
 import java.util.Properties;
 import java.util.logging.Logger;
 

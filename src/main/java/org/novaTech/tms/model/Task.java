@@ -1,4 +1,4 @@
-package org.example.tms.model;
+package org.novaTech.tms.model;
 
 
 import java.sql.Date;
