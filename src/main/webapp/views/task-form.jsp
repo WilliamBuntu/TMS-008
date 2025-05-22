@@ -1,6 +1,6 @@
 <%@ page import="java.util.List" %>
-<%@ page import="org.example.tms.model.Task" %>
-<%@ page import="org.example.tms.model.Category" %>
+<%@ page import="org.novaTech.tms.model.Task" %>
+<%@ page import="org.novaTech.tms.model.Category" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>

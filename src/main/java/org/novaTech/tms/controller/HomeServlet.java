@@ -1,12 +1,12 @@
-package org.example.tms.controller;
+package org.novaTech.tms.controller;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import org.example.tms.dao.TaskDAO;
-import org.example.tms.model.Task;
+import org.novaTech.tms.dao.TaskDAO;
+import org.novaTech.tms.model.Task;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,9 +1,9 @@
 
-package org.example.tms.dao;
+package org.novaTech.tms.dao;
 
-import org.example.tms.model.User;
-import org.example.tms.util.CustomLogger;
-import org.example.tms.util.DatabaseUtil;
+import org.novaTech.tms.model.User;
+import org.novaTech.tms.util.CustomLogger;
+import org.novaTech.tms.util.DatabaseUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ public class UserDAO {
             
             stmt.setString(1, user.getUsername());
             stmt.setString(2, user.getEmail());
-            stmt.setString(3, user.getPassword()); // Should be hashed in production
+            stmt.setString(3, user.getPassword());
             
             int affectedRows = stmt.executeUpdate();
             

@@ -1,4 +1,4 @@
-package org.example.tms.model;
+package org.novaTech.tms.model;
 public class Category {
     private int categoryId;
     private String name;

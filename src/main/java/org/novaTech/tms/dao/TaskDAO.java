@@ -1,7 +1,7 @@
-package org.example.tms.dao;
-import org.example.tms.model.Task;
-import org.example.tms.util.CustomLogger;
-import org.example.tms.util.DatabaseUtil;
+package org.novaTech.tms.dao;
+import org.novaTech.tms.model.Task;
+import org.novaTech.tms.util.CustomLogger;
+import org.novaTech.tms.util.DatabaseUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ public class TaskDAO {
         }
     }
     
-    // Get task by ID
+    // Get a task by ID
     public Task getTaskById(int taskId) {
         String query = "SELECT * FROM task WHERE task_id = ?";
         

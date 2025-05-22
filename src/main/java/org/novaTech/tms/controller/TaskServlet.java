@@ -1,9 +1,9 @@
-package org.example.tms.controller;
+package org.novaTech.tms.controller;
 
-import org.example.tms.dao.CategoryDAO;
-import org.example.tms.dao.TaskDAO;
-import org.example.tms.model.Category;
-import org.example.tms.model.Task;
+import org.novaTech.tms.dao.CategoryDAO;
+import org.novaTech.tms.dao.TaskDAO;
+import org.novaTech.tms.model.Category;
+import org.novaTech.tms.model.Task;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import org.example.tms.util.CustomLogger;
+import org.novaTech.tms.util.CustomLogger;
 
 import java.io.IOException;
 import java.sql.Date;

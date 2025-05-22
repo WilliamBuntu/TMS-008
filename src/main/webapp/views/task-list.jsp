@@ -1,7 +1,7 @@
 <%@ page import="java.util.List" %>
-<%@ page import="org.example.tms.model.Task" %>
-<%@ page import="org.example.tms.model.Category" %>
-<%@ page import="org.example.tms.model.User" %>
+<%@ page import="org.novaTech.tms.model.Task" %>
+<%@ page import="org.novaTech.tms.model.Category" %>
+<%@ page import="org.novaTech.tms.model.User" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
